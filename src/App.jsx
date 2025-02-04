@@ -12,7 +12,6 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
-      <WorkExperience />
       <Footer />
     </main>
   );
