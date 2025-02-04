@@ -32,7 +32,7 @@ const Hero = () => {
         <p className="hero_tag text-gray_gradient">Arjun Deshmukh</p>
       </div>
 
-      <div className="w-full h-full absolute inset-0">
+      <div className="w-full h-[90%dvh] absolute inset-0">
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <Leva hidden />
