@@ -29,7 +29,7 @@ const Hero = () => {
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           <span className="waving-hand">👋</span>{' '}Hey there, I am 
         </p>
-        <p className="hero_tag text-gray_gradient">Arjun Deshmukh</p>
+        <p className="hero_tag text-gray_gradient">Arjun G Deshmukh</p>
       </div>
 
       <div className="w-full h-[90%dvh] absolute inset-0">
