@@ -25,14 +25,14 @@ const Hero = () => {
 
   return (
     <section className="min-h-[90dvh] w-full flex flex-col relative" id="home">
-      <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-1">
+      <div className="w-full mx-auto flex flex-col sm:mt-20 mt-10 c-space gap-1">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
-          <span className="waving-hand">👋</span>{' '}Hello, I am 
+          <span className="waving-hand">👋</span>{' '}Hey there, I am 
         </p>
         <p className="hero_tag text-gray_gradient">Arjun Deshmukh</p>
       </div>
 
-      <div className="w-full h-[90dvh] absolute inset-0">
+      <div className="w-full h-full absolute inset-0">
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <Leva hidden />
