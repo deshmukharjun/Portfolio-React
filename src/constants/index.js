@@ -28,7 +28,7 @@ export const myProjects = [
     desc: 'A React and Three.js project showcasing a 3D iPhone model with color-changing animations on user input.',
     subdesc: 'Built with React, Three.js, Drei, and Tailwind CSS to demonstrate advanced animation and 3D modeling skills.',
     href: 'https://iphone-react-js.vercel.app/',
-    texture: '/textures/project/project1.mp4',
+    texture: '/textures/project/project1.webm',
     logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#ffffff',
@@ -47,7 +47,7 @@ export const myProjects = [
     desc: 'A React and GSAP-powered landing page for Valorant with advanced animations.',
     subdesc: 'Built to showcase expertise in React and GSAP animations, creating an immersive user experience.',
     href: 'https://valorant-react-web-app.vercel.app/',
-    texture: '/textures/project/project2.mp4',
+    texture: '/textures/project/project2.webm',
     logo: '/assets/valorant.svg',
     logoStyle: {
       backgroundColor: '#ff4655',
@@ -64,7 +64,7 @@ export const myProjects = [
     desc: 'A React and Tailwind CSS website that uses the TMDB API to feature a dynamic top 5 trending movies section.',
     subdesc: 'Shows real-time trending movies based on user searches, similar to Netflix.',
     href: 'https://movie-app-react-jet.vercel.app/',
-    texture: '/textures/project/project3.mp4',
+    texture: '/textures/project/project3.webm',
     logo: '/assets/project-logo3.png',
     logoStyle: {
       backgroundColor: '#ffffff',
@@ -82,7 +82,7 @@ export const myProjects = [
     desc: 'A Three.js and React project for a digital marktech company, featuring a red moon with floating images from past projects.',
     subdesc: 'Built using Three.js and React to create an interactive 3D experience showcasing company work.',
     href: 'https://www.thefrick.in/Incognito',
-    texture: '/textures/project/project4.mp4',
+    texture: '/textures/project/project4.webm',
     logo: '/assets/fricklogo.svg',
     logoStyle: {
       backgroundColor: '#ffffff',
@@ -99,7 +99,7 @@ export const myProjects = [
     desc: 'A simple frontend website for a gifting company, built with HTML and CSS.',
     subdesc: 'Created with a minimalist approach to provide a seamless user experience.',
     href: '',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/project5.webm',
     logo: '/assets/hojlogo.svg',
     logoStyle: {
       backgroundColor: '#506C60',
@@ -119,7 +119,7 @@ export const myAppProjects = [
     desc: 'An Android app providing real-time updates about the Manache Ganpati in Pune, built using Java and Google Maps API. 🏛📍',
     subdesc: 'Developed in Android Studio using Java, this app allows users to view live updates on the 5 Manache Ganpati locations in Pune. It features Google Maps integration for real-time navigation, ensuring devotees can easily locate and visit each Ganpati pandal during the festival.',
     href: 'https://github.com/deshmukharjun/Manache-5',
-    texture: '/textures/project/manache_demo.mp4',
+    texture: '/textures/project/manache_demo.webm',
     logo: '/assets/manache.svg',
     logoStyle: {
       backgroundColor: '#320707',
@@ -137,7 +137,7 @@ export const myAppProjects = [
     desc: 'An advanced version of Tic-Tac-Toe where your first move vanishes when you make your fourth move. ♟📱',
     subdesc: 'Developed in Android Studio using Java, this game introduces a new level of strategy where only the last three moves of each player remain visible, eliminating the possibility of a tie. The game features smooth animations and an intuitive UI for a competitive experience.',
     href: 'https://github.com/deshmukharjun/Tic-Tac-Two',
-    texture: '/textures/project/ttt_demo.mp4',
+    texture: '/textures/project/ttt_demo.webm',
     logo: '/assets/tictactwo.png',
     logoStyle: {
       backgroundColor: '#ffffff',
@@ -155,7 +155,7 @@ export const myAppProjects = [
     desc: 'A movie-matching app like Tinder, helping groups decide on a movie to watch. 🎥🔥',
     subdesc: 'Built in Kotlin with Firebase as the backend, this app allows friends to join a session, swipe on movies they like or dislike, and select a final movie based on majority votes. It integrates the TMDB API for fetching real-time movie data and features an engaging swipe-based UI.',
     href: 'https://github.com/vishesh2201/SwipeFlix',
-    texture: '/textures/project/swipeflix_demo.mp4',
+    texture: '/textures/project/swipeflix_demo.webm',
     logo: '/assets/swipeflix.svg',
     logoStyle: {
       backgroundColor: '#005E7C',
@@ -174,7 +174,7 @@ export const myAppProjects = [
     desc: 'A fun quiz game where you identify country flags, featuring a hint system and score tracking. 🚩🧠',
     subdesc: 'This interactive Kotlin-based quiz game tests users on their knowledge of world flags. Players get four multiple-choice options per question, with a hint system to assist them. The app maintains a scorekeeping system and features a simple, engaging UI for an enjoyable learning experience.',
     href: 'https://github.com/deshmukharjun/GuessTheFlag-App',
-    texture: '/textures/project/guesstheflag_demo.mp4',
+    texture: '/textures/project/guesstheflag_demo.webm',
     logo: '/assets/guesstheflag.jpg',
     logoStyle: {
       backgroundColor: '#8eb5f0',
@@ -191,7 +191,7 @@ export const myAppProjects = [
     desc: 'An online turf booking app, migrating the offline booking process to a digital platform. 🏟📅',
     subdesc: 'Developed in Java with Firebase integration, this app allows users to check available slots and book sports turfs online. While only a frontend project for college, it includes a functional UI with real-time booking updates powered by Firebase.',
     href: 'https://github.com/deshmukharjun',
-    texture: '/textures/project/bookmyturf_demo.mp4',
+    texture: '/textures/project/bookmyturf_demo.webm',
     logo: '/assets/bmt.svg',
     logoStyle: {
       backgroundColor: '#32CD9F',
