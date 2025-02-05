@@ -32,7 +32,7 @@ const Projects = () => {
   }, [selectedProjectIndex, activeCategory]);
 
   return (
-    <section id='work' className="c-space my-20 mt-32">
+    <section id='projects' className="c-space my-20 p-32">
       <div className="flex items-center justify-between">
         <p className="head-text">My Selected Work</p>
 

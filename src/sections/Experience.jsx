@@ -1,67 +1,37 @@
-import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
-
-import "react-vertical-timeline-component/style.min.css";
-import { workExperiences } from "../constants";
-
-const ExperienceCard = ({ experience }) => {
-  return (
-    <VerticalTimelineElement id="work"
-      contentStyle={{
-        background: "#1d1836",
-        color: "#fff",
-      }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
-      icon={
-        <div className="flex justify-center items-center w-full h-full">
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
-          />
-        </div>
-      }
-    >
-      <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-        <p className="text-gray-400 text-[16px] font-semibold" style={{ margin: 0 }}>
-          {experience.company_name}
-        </p>
-      </div>
-
-      <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
-          <li key={`experience-point-${index}`} className="text-white-100 text-[14px] pl-1 tracking-wider">
-            {point}
-          </li>
-        ))}
-      </ul>
-    </VerticalTimelineElement>
-  );
-};
+import { workExperiences } from '../constants/index.js';
 
 const WorkExperience = () => {
   return (
-    <>
-      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
-        <p className="text-gray-400 text-center">What I have done so far</p>
-        <h2 className="text-white text-center text-3xl font-bold">Work Experience</h2>
-      </motion.div>
-
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
-          {workExperiences.map((experience, index) => (
-            <ExperienceCard key={`experience-${index}`} experience={experience} />
-          ))}
-        </VerticalTimeline>
+    <section className="c-space my-20" id="work">
+      <div className="w-full text-white-600">
+        <p className="head-text">My Work Experience</p>
+        <div className="work-container">
+          <div className="work-content">
+            <div className="sm:py-10 py-5 sm:px-5 px-2.5">
+              {workExperiences.map((item, index) => (
+                <div key={index} className="work-content_container group">
+                  <div className="flex flex-col h-full justify-start items-center py-2">
+                    <div className="work-content_logo">
+                      <img className="w-full h-full" src={item.icon} alt={item.company_name} />
+                    </div>
+                    <div className="work-content_bar" />
+                  </div>
+                  <div className="sm:p-5 px-2.5 py-5">
+                    <p className="font-bold text-white-800">{item.company_name}</p>
+                    <p className="text-sm mb-5">
+                      {item.title} -- <span>{item.date}</span>
+                    </p>
+                    <p className="group-hover:text-white transition-all ease-in-out duration-500">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-    </>
+    </section>
   );
 };
 

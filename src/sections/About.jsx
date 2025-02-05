@@ -23,9 +23,9 @@ const About = () => {
             <img src="assets/grid11.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Arjun Deshmukh</p>
+              <p className="grid-headtext">Hey, I’m Arjun Deshmukh</p>
               <p className="grid-subtext">
-                With 2 years of experience, I have honed my skills in both frontend and Android Development, creating dynamic
+                With 2 years of experience, I have honed my skills in frontend and Android Development, creating dynamic
                 and responsive websites and apps.
               </p>
             </div>
@@ -77,6 +77,7 @@ const About = () => {
               <p className="grid-subtext">
                 I love solving problems and building things through code. Programming isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I enjoy creating spectacular visuals and going out of the box to make something special.
               </p>
             </div>
           </div>

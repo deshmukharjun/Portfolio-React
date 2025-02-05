@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Leva } from 'leva';
 import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
@@ -22,6 +22,40 @@ const Hero = () => {
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
+  const roles = ["Android Developer", "UI/UX Designer", "Frontend Developer", "3D Artist", "Problem Solver"];
+  const [text, setText] = useState("");
+  const [roleIndex, setRoleIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const typingSpeed = 50; // Typing speed
+    const deletingSpeed = 25; // Deleting speed
+    const delayBetweenRoles = 1500; // Delay before switching roles
+
+    const currentRole = roles[roleIndex];
+
+    if (!isDeleting && charIndex < currentRole.length) {
+      // Typing effect
+      setTimeout(() => {
+        setText(currentRole.substring(0, charIndex + 1));
+        setCharIndex((prev) => prev + 1);
+      }, typingSpeed);
+    } else if (isDeleting && charIndex > 0) {
+      // Deleting effect
+      setTimeout(() => {
+        setText(currentRole.substring(0, charIndex - 1));
+        setCharIndex((prev) => prev - 1);
+      }, deletingSpeed);
+    } else if (!isDeleting && charIndex === currentRole.length) {
+      // Wait before deleting
+      setTimeout(() => setIsDeleting(true), delayBetweenRoles);
+    } else if (isDeleting && charIndex === 0) {
+      // Move to next role
+      setIsDeleting(false);
+      setRoleIndex((prev) => (prev + 1) % roles.length);
+    }
+  }, [charIndex, isDeleting, roleIndex]);
 
   return (
     <section className="min-h-[90dvh] w-full flex flex-col relative" id="home">
@@ -29,7 +63,7 @@ const Hero = () => {
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           <span className="waving-hand">👋</span>{' '}Hey, I am 
         </p>
-        <p className="hero_tag text-gray_gradient">Arjun Deshmukh</p>
+        <p className="hero_tag text-gray_gradient">{text}</p>
       </div>
 
       <div className="w-full h-full absolute inset-0">
