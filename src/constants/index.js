@@ -156,9 +156,9 @@ export const myAppProjects = [
     subdesc: 'Built in Kotlin with Firebase as the backend, this app allows friends to join a session, swipe on movies they like or dislike, and select a final movie based on majority votes. It integrates the TMDB API for fetching real-time movie data and features an engaging swipe-based UI.',
     href: 'https://github.com/vishesh2201/SwipeFlix',
     texture: '/textures/project/swipeflix_demo.mp4',
-    logo: '/assets/swipeflix.png',
+    logo: '/assets/swipeflix.svg',
     logoStyle: {
-      backgroundColor: '#ffffff',
+      backgroundColor: '#005E7C',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #444444',
     },
@@ -175,9 +175,9 @@ export const myAppProjects = [
     subdesc: 'This interactive Kotlin-based quiz game tests users on their knowledge of world flags. Players get four multiple-choice options per question, with a hint system to assist them. The app maintains a scorekeeping system and features a simple, engaging UI for an enjoyable learning experience.',
     href: 'https://github.com/deshmukharjun/GuessTheFlag-App',
     texture: '/textures/project/guesstheflag_demo.mp4',
-    logo: '/assets/guesstheflag.png',
+    logo: '/assets/guesstheflag.jpg',
     logoStyle: {
-      backgroundColor: '#ffffff',
+      backgroundColor: '#8eb5f0',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #444444',
     },
