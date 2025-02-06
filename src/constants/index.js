@@ -226,7 +226,7 @@ export const workExperiences = [
     title: 'Front End Developer',
     date: '2024 - Present',
     description: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/fricklogo.svg',
+    icon: '/assets/work.svg',
     iconBg: "#ff0000",
     points: [
       "Creating interactive three.js websites.",
@@ -240,7 +240,7 @@ export const workExperiences = [
     title: 'Video Editor',
     date: '2022 - 2023',
     description: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations.",
-    icon: '/assets/youtube.svg',
+    icon: '/assets/work.svg',
     iconBg: "#000000",
     points: [
       "Started a youtube channel that gained 30,000 Subscribers.",
@@ -254,6 +254,50 @@ export const workExperiences = [
     title: 'Video/3D Artist',
     date: '2021 - 2022',
     description: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to implementation details is well-documented.",
+    icon: '/assets/work.svg',
+    iconBg: "#000000",
+    points: [
+      "Made 3D renders and models for this supliment company.",
+      "Editing workout and talking head videos.",
+      "Created a brand identity and guidelines."
+    ],
+  },
+];
+export const EducationExperiences = [
+  {
+    id: 1,  
+    company_name: 'Pune University',
+    title: 'AIML',
+    date: '2022 - 2026',
+    description: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to life, allowing stakeholders to experience the user flow and interactions before development.",
+    icon: '/assets/school.png',
+    iconBg: "#ff0000",
+    points: [
+      "Creating interactive three.js websites.",
+      "Collaborating with designers and developers for UI.",
+      "Bringing designs to life before actual development."
+    ],
+  },
+  {
+    id: 2,
+    company_name: "SSVM Jr College",
+    title: 'Science',
+    date: '2020 - 2022',
+    description: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations.",
+    icon: '/assets/work.svg',
+    iconBg: "#000000",
+    points: [
+      "Started a youtube channel that gained 30,000 Subscribers.",
+      "Used SEO Tricks to get 50 Million Total Views.",
+      "Edited engaging youtube shorts."
+    ],
+  },
+  {
+    id: 3,
+    company_name: 'KHS Aundh',
+    title: 'Highschool',
+    date: '2008 - 2020',
+    description: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to implementation details is well-documented.",
     icon: '/assets/aphro_d_logo.jpeg',
     iconBg: "#000000",
     points: [
@@ -263,4 +307,3 @@ export const workExperiences = [
     ],
   },
 ];
-
