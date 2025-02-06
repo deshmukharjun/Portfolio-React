@@ -24,9 +24,7 @@ export const navLinks = [
     name: 'Contact',
     href: '#contact',
   },
-
 ];
-
 
 export const myProjects = [
   {
