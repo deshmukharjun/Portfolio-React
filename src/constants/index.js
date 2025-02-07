@@ -270,7 +270,7 @@ export const EducationExperiences = [
     title: 'AIML',
     date: '2022 - 2026',
     description: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/school.png',
+    icon: '/assets/school.svg',
     iconBg: "#ff0000",
     points: [
       "Creating interactive three.js websites.",
@@ -284,7 +284,7 @@ export const EducationExperiences = [
     title: 'Science',
     date: '2020 - 2022',
     description: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations.",
-    icon: '/assets/work.svg',
+    icon: '/assets/school.svg',
     iconBg: "#000000",
     points: [
       "Started a youtube channel that gained 30,000 Subscribers.",
@@ -298,7 +298,7 @@ export const EducationExperiences = [
     title: 'Highschool',
     date: '2008 - 2020',
     description: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to implementation details is well-documented.",
-    icon: '/assets/aphro_d_logo.jpeg',
+    icon: '/assets/school.svg',
     iconBg: "#000000",
     points: [
       "Made 3D renders and models for this supliment company.",
